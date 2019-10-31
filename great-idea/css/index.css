@@ -347,6 +347,8 @@ footer{
 	margin-bottom: 40px;
 }
 
+
+
 .facts-text{
 	margin-right: 40px;
 	display: flex;
@@ -364,5 +366,11 @@ footer{
 }
 
 li{
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+
+.features-img{
+	display:flex;
+	justify-content: center;
 }
