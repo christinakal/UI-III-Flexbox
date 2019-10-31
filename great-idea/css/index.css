@@ -157,8 +157,8 @@ nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	word-spacing: 46px;
-	font-size: 12px;
+	word-spacing: 44px;
+	font-size: 15px;
 	padding: 20px;
 }
 
@@ -281,4 +281,57 @@ footer{
 	text-align: center;
 	font-size:15px;
 	margin-bottom: 70px;
+}
+
+
+
+/* ===== NEW PAGE ===== */
+
+
+
+
+.services{
+	padding-bottom: 30px;
+	border-bottom: 2px solid gray;	
+	width: 100%;
+}
+.services img{
+	width: 100%;
+}
+.services h1{
+	margin-top:20px;
+	font-size: 25px;
+}
+
+.services p{
+	word-spacing: 6px;
+}
+
+
+/* ----- BOXES SECTION ------- */
+
+.boxes{
+	margin-bottom: 30px;
+}
+
+.parent-info-boxes{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+
+}
+
+.info-boxes{
+	border: 1px solid black;
+	padding: 20px;
+	background: #f5f5f5;
+}
+
+.first-box-left{
+	margin-right: 30px;
+}
+
+.info-boxes button{
+	margin-top: 20px;
+	border-radius: 5px;
 }
