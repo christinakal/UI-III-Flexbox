@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5 {
 
 
 
+
 /* Your code starts here! */
 
 
@@ -334,4 +335,34 @@ footer{
 .info-boxes button{
 	margin-top: 20px;
 	border-radius: 5px;
+}
+
+
+
+.facts{
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid gray;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.facts-text{
+	margin-right: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.facts-text p{
+	margin-bottom: 20px;
+}
+
+.facts-text ul{
+	list-style-type: square;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+li{
+	padding-bottom: 20px;
 }
